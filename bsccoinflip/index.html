@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+  <title>BSC Coin Flip</title>
+  <meta name="Description" CONTENT="Website provides you Earn Bnb For Free and Earn Bnb coin and Earn Bnb Game and Crypto Gambling and Earn Bnb Rewards">
+  <link rel="stylesheet" href="../cdn.jsdelivr.net/npm/bulma%400.9.3/css/bulma.min.css">
+  <link rel="stylesheet" href="bulma2.css">
+  <link rel="icon" href="favicon.ico" />
+  <script src="../cdn.jsdelivr.net/npm/web3%40latest/dist/web3.min.js"></script>
+
+
+
+
+
+</head>
+<body>
+<div class="bg">
+
+  <div class="container">
+<br><br>
+<div class="columns">
+
+  <div class="column is-four-fifths">
+
+  </div>
+  <div class="column">
+    <button type="button" id="connect" class="button" name="button" style="color:blue" onClick="window.location.reload();">Connect Metamask</button>
+  </div>
+</div>
+
+<div class="columns">
+  <div class="column content is-medium">
+    <h1 class="h1">Game List</h1>
+    <ul class="ul">
+      <li><a href="">Flip Game</a></li>
+    </ul>
+  </div>
+<div class="column">
+  <img src="flip3.gif" alt="">
+  <br>
+  <img src="flip.gif" alt="">
+
+</div>
+  <div class="column is-three-fifths text-center" style="background-color:white">
+    <h1>Flip Game</h1>
+    <p>Description: Choose a side, then flip coin, if you win, you will get double (2x)</p>
+
+    <div class="select is-primary">
+  <select>
+    <option>Heads</option>
+    <option>Tails</option>
+  </select>
+</div>
+<br><br>
+<input class="input is-medium" type="text" id="value" placeholder="Minimum 0.1 BNB">
+
+<br><br>
+<button class="button is-link is-rounded" onClick="work()">Flip</button>
+<br><br>
+<label>Select Network</label>
+<br>
+<div class="select is-primary">
+<select id="network">
+<option value="bsc">BNB (Binance Smart Chain)</option>
+</select>
+</div>
+
+<<br><br>
+<h1 class="h1">Last 24 hours stats</h1>
+<div class="columns">
+  <div class="column content is-medium">
+    WINS
+    <BR>
+    <p id="wins"></p>
+  </div>
+  <div class="column content is-medium">
+    LOSES
+    <BR>
+      <p id="loses"></p>
+  </div>
+</div>
+  </div>
+
+
+
+</div>
+<hr>
+
+  <script src="app.js"></script>
+
+</div>
+  </div>
+</body>
+
+</html>
